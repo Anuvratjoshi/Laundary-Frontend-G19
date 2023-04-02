@@ -1,0 +1,139 @@
+/*home page styling */
+#nav-mobile li{
+    margin-right: 30px;
+    cursor: pointer;
+    
+  }
+  #nav-mobile li:last-child{
+    margin-right: 0px;
+    color: #FFFFFF;
+    width: 80px;
+    text-align: center;
+  }
+  body{
+    background-color: #B9C0FD1A;
+    overflow-x: hidden;
+  
+  }
+  nav ul{
+    color: #565657 !important;
+  }
+  .brand-logo{
+    color: #5861AE !important;
+  }
+  /* #sign-in{
+    background-color: #4552C1;
+  
+  }
+  #sign-in img{
+    position: relative;
+    top: 10px;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+  } */
+  
+  #sign-in{
+    background-color: #4552C1;
+    
+  }
+  #sign-in img{
+    position: relative;
+    top: 10px;
+    left: -10px;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  
+  #main-body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-bottom: #5861AE;
+    /* align-items: center; */
+  }
+  
+  #form-section{
+    /* position: relative; */
+    margin-right: 270px;
+    
+    /* width: 100%; */
+  }
+  #form-section form input{
+    width: 120%;
+    height: 25px;
+  }
+  
+  #laundry-section{
+    color: #5861AE;
+    font-weight: bolder !important;
+    text-align: center;
+    width: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 74px;
+    min-height: 600px;
+  
+  }
+  #laundry-section p{
+    color: #565657;
+    margin-top: 30px;
+  }
+  #laundry-section h6,button{
+    float:left;
+    margin-left:10px;
+  }
+  #laundry-section h6{
+    margin-top: 50px;
+  }
+  #laundry-section button{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    color: #4552C1;
+  
+  }
+  #form-section h3{
+    color: #4552C1;
+  }
+  
+  /* styling register form*/
+  
+  #register-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    position: relative;
+    top: -40px;
+  }
+  .form-field{
+    margin-right: 50px;
+    position: relative;
+    top: -60px;
+  }
+  
+  .form-field label{
+    color: #77838F;
+  }
+  
+  .box{
+    border: 1px solid black !important;
+  }
+  .checkbox-container{
+    position: relative;
+    /* text-align: center; */
+    top: -23px;
+    left: 50px;
+  }
+  
+  footer .terms{
+    height: 70px;
+    /* width: 100%; */
+    border-top: 2px solid #5861AE;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 2px solid #FFFFFF;
+  }
