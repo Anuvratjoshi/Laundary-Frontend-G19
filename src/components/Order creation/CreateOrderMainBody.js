@@ -61,7 +61,7 @@ function CreateOrderMainBody() {
                     }
                 }
                 // console.log(serviceArr)
-                fetch("https://laundry-cart-backend-gvz9.onrender.com/createorder", {
+                fetch("https://laundry-cart-backend-g19.onrender.com", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -106,7 +106,7 @@ function CreateOrderMainBody() {
         for(let i=0;i<productInfo.length;i++){
             let info = productInfo[i]
             if(info.quantity!==""){
-                fetch("https://laundry-cart-backend-gvz9.onrender.com/getprice",{
+                fetch("https://laundry-cart-backend-g19.onrender.com/getprice",{
                     method:"POST",
                     headers:{
                         "Content-Type": "application/json",
