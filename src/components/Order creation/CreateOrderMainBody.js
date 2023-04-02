@@ -61,7 +61,7 @@ function CreateOrderMainBody() {
                     }
                 }
                 // console.log(serviceArr)
-                fetch("https://laundry-cart-backend-g19.onrender.com", {
+                fetch("https://laundry-cart-backend-g19.onrender.com/createorder", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
