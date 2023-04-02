@@ -23,7 +23,7 @@ function OrderContent() {
 
 
     useEffect(() => {
-        fetch("http://localhost:5000/getorder", {
+        fetch("https://laundry-cart-backend-gvz9.onrender.com/getorder", {
             method: "GET",
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("jwt"),
@@ -61,7 +61,7 @@ function OrderContent() {
     }
 
     const deleteItem = (id) => {
-        fetch("http://localhost:5000/deleteorder", {
+        fetch("https://laundry-cart-backend-gvz9.onrender.com/deleteorder", {
             method: "delete",
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("jwt"),
@@ -80,7 +80,7 @@ function OrderContent() {
         })
     }
     const findServiceArray = (id) => {
-        fetch("http://localhost:5000/findorder", {
+        fetch("https://laundry-cart-backend-gvz9.onrender.com/findorder", {
             method: "POST",
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("jwt"),
