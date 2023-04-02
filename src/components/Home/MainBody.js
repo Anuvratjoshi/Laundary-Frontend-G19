@@ -39,7 +39,7 @@ function MainBody() {
         }
     }
     const sendData = (data) => {
-        fetch("https://laundry-cart-backend-gvz9.onrender.com/register", {
+        fetch("https://laundry-cart-backend-g19.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -76,7 +76,7 @@ function MainBody() {
 
     const signIn = (e) =>{
         e.preventDefault()
-        fetch("https://laundry-cart-backend-gvz9.onrender.com/signin",{
+        fetch("https://laundry-cart-backend-g19.onrender.com/signin",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
