@@ -121,7 +121,7 @@ function OrderContent() {
             {data.map((item) => {
                 return <div key={item._id} className="order-list">
                     <div>OR00001</div>
-                    <div>{new Date().toLocaleDateString()}</div>
+                    <div>{item.date}</div>
                     <div className="align r">{getUserDetails("district")}</div>
                     <div className="align r">{getUserDetails("district")}</div>
                     <div className="phone ph">{getUserDetails("phone")}</div>
